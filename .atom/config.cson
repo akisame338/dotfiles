@@ -1,0 +1,45 @@
+"*":
+  core:
+    disabledPackages: [
+      "language-python"
+    ]
+    excludeVcsIgnoredPaths: false
+    telemetryConsent: "no"
+  editor:
+    fontFamily: "ricty  diminished"
+    fontSize: 15
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "6714ef13-0885-48ec-dfc0-b88fa50018c6"
+  "goto-definition": {}
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+".c2hs.source":
+  editor:
+    tabLength: 4
+".cabal.source":
+  editor:
+    tabLength: 4
+".haskell.hint":
+  editor:
+    tabLength: 4
+".haskell.hint.message":
+  editor:
+    tabLength: 4
+".haskell.hint.type":
+  editor:
+    tabLength: 4
+".haskell.latex.tex.text":
+  editor:
+    tabLength: 4
+".haskell.source":
+  editor:
+    tabLength: 4
+".hsc2hs.source":
+  editor:
+    tabLength: 4
