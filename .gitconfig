@@ -1,0 +1,29 @@
+[user]
+    name = akisame338
+    email = akisame338@gmail.com
+
+[alias]
+    s = status
+    d = diff
+    dc = diff --cached
+    ds = diff --stat
+    dcs = diff --cached --stat
+    dsc = diff --stat --cached
+    co = checkout
+    cb = checkout -b
+    l = log
+    ll = log --oneline --graph --decorate
+    sl = stash list
+    fa = fetch --all
+    cp = cherry-pick
+    cpn = cherry-pick -n
+    # エイリアスで引数を使う
+    # https://rcmdnk.com/blog/2013/12/20/computer-git/
+    dh = "!sh -c 'git diff HEAD~$1' -"
+    ri = "!sh -c 'git rebase -i HEAD~$1' -"
+    ss = "!sh -c 'git stash save $1' -"
+    sp = "!sh -c 'git stash pop stash@{$1}' -"
+    initialize = "!sh -c 'git init && git commit --allow-empty -m リポジトリ作成'"
+
+[core]
+    whitespace = cr-at-eol
