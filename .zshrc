@@ -70,3 +70,6 @@ eval "$(rbenv init -)"
 
 # direnv setting
 eval "$(direnv hook zsh)"
+
+# composer global
+export PATH=$HOME/.composer/vendor/bin:$PATH
