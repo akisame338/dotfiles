@@ -73,3 +73,7 @@ eval "$(direnv hook zsh)"
 
 # composer global
 export PATH=$HOME/.composer/vendor/bin:$PATH
+
+# goenv setting
+export PATH="$HOME/.goenv/bin:$PATH"
+eval "$(goenv init -)"
