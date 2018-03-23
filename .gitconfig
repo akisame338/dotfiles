@@ -6,6 +6,9 @@
     s = status
     d = diff
     dw = diff --word-diff
+    # 空白とカンマを区切り文字として単語単位での差分を表示
+    # http://nirasan.hatenablog.com/entry/2012/11/20/174338
+    diff-csv = diff --word-diff-regex="[^[:blank:],]"
     dc = diff --cached
     ds = diff --stat
     dcw = diff --cached --word-diff
