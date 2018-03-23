@@ -5,8 +5,10 @@
 [alias]
     s = status
     d = diff
+    dw = diff --word-diff
     dc = diff --cached
     ds = diff --stat
+    dcw = diff --cached --word-diff
     dcs = diff --cached --stat
     dsc = diff --stat --cached
     co = checkout
