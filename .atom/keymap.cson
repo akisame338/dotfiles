@@ -43,3 +43,4 @@
     'ctrl-shift-tab ^ctrl': 'unset!'
     'ctrl-shift-tab': 'pane:show-previous-item'
     'shift-cmd-t': 'pane:reopen-closed-item'
+    'ctrl-shift-m': 'markdown-preview:toggle'
