@@ -32,6 +32,10 @@
 'atom-text-editor:not([mini])':
     'ctrl-shift-m': 'unset!'
     'ctrl-shift-u': 'encoding-selector:show'
+    'cmd-[': 'window:focus-pane-on-left'
+    'cmd-]': 'window:focus-pane-on-right'
+    'cmd-{': 'pane:split-left-and-copy-active-item'
+    'cmd-}': 'pane:split-right-and-copy-active-item'
 
 'atom-workspace atom-text-editor':
     'ctrl-shift-t': 'textile-preview:toggle'
@@ -42,5 +46,9 @@
     'ctrl-tab': 'pane:show-next-item'
     'ctrl-shift-tab ^ctrl': 'unset!'
     'ctrl-shift-tab': 'pane:show-previous-item'
+    'cmd-[': 'unset!'
+    'cmd-]': 'unset!'
+    'cmd-{': 'unset!'
+    'cmd-}': 'unset!'
     'shift-cmd-t': 'pane:reopen-closed-item'
     'ctrl-shift-m': 'markdown-preview:toggle'
