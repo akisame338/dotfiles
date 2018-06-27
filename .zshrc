@@ -1,3 +1,5 @@
+export LANG=ja_JP.UTF-8
+
 alias ls='ls -G'
 
 # user keybind
