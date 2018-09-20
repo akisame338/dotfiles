@@ -36,7 +36,6 @@
     'cmd-]': 'unset!'
     'cmd-{': 'unset!'
     'cmd-}': 'unset!'
-    'shift-cmd-t': 'pane:reopen-closed-item'
     'ctrl-shift-m': 'markdown-preview:toggle'
 
 'atom-workspace':
