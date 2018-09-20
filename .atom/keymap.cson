@@ -26,6 +26,19 @@
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
 
+# http://qiita.com/takuchan9104/items/237dd39bf5987879b106
+'body':
+    'ctrl-tab ^ctrl': 'unset!'
+    'ctrl-tab': 'pane:show-next-item'
+    'ctrl-shift-tab ^ctrl': 'unset!'
+    'ctrl-shift-tab': 'pane:show-previous-item'
+    'cmd-[': 'unset!'
+    'cmd-]': 'unset!'
+    'cmd-{': 'unset!'
+    'cmd-}': 'unset!'
+    'shift-cmd-t': 'pane:reopen-closed-item'
+    'ctrl-shift-m': 'markdown-preview:toggle'
+
 'atom-workspace':
     'shift-cmd-t': 'unset!'
 
@@ -39,16 +52,3 @@
 
 'atom-workspace atom-text-editor':
     'ctrl-shift-t': 'textile-preview:toggle'
-
-# http://qiita.com/takuchan9104/items/237dd39bf5987879b106
-'body':
-    'ctrl-tab ^ctrl': 'unset!'
-    'ctrl-tab': 'pane:show-next-item'
-    'ctrl-shift-tab ^ctrl': 'unset!'
-    'ctrl-shift-tab': 'pane:show-previous-item'
-    'cmd-[': 'unset!'
-    'cmd-]': 'unset!'
-    'cmd-{': 'unset!'
-    'cmd-}': 'unset!'
-    'shift-cmd-t': 'pane:reopen-closed-item'
-    'ctrl-shift-m': 'markdown-preview:toggle'
