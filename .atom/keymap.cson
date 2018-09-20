@@ -37,11 +37,13 @@
     'cmd-{': 'unset!'
     'cmd-}': 'unset!'
     'ctrl-shift-m': 'markdown-preview:toggle'
+    'ctrl-shift-p': 'unset!'
 
 'atom-workspace':
     'shift-cmd-t': 'unset!'
 
 'atom-text-editor':
+    'ctrl-shift-p': 'plantuml-viewer:toggle'
     'ctrl-shift-t': 'textile-preview:toggle'
 
 'atom-text-editor:not([mini])':
