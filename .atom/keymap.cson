@@ -41,6 +41,9 @@
 'atom-workspace':
     'shift-cmd-t': 'unset!'
 
+'atom-text-editor':
+    'ctrl-shift-t': 'textile-preview:toggle'
+
 'atom-text-editor:not([mini])':
     'ctrl-shift-m': 'unset!'
     'ctrl-shift-u': 'encoding-selector:show'
@@ -48,6 +51,3 @@
     'cmd-]': 'window:focus-pane-on-right'
     'cmd-{': 'pane:split-left-and-copy-active-item'
     'cmd-}': 'pane:split-right-and-copy-active-item'
-
-'atom-workspace atom-text-editor':
-    'ctrl-shift-t': 'textile-preview:toggle'
