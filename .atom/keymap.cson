@@ -53,3 +53,4 @@
     'cmd-]': 'window:focus-pane-on-right'
     'cmd-{': 'pane:split-left-and-copy-active-item'
     'cmd-}': 'pane:split-right-and-copy-active-item'
+    'cmd-shift-c': 'unset!'
