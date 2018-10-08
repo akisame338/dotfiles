@@ -1,4 +1,7 @@
 "*":
+  "atom-clock":
+    dateFormat: "YYYY/MM/DD(ddd) HH:mm"
+    locale: "ja"
   core:
     disabledPackages: [
       "language-python"
