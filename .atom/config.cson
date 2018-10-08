@@ -33,6 +33,8 @@
   "exception-reporting":
     userId: "6714ef13-0885-48ec-dfc0-b88fa50018c6"
   "goto-definition": {}
+  "open-terminal-here":
+    command: "open -a iTerm \"$PWD\""
   swackets:
     colorParens: true
     colorSquareBrackets: true
