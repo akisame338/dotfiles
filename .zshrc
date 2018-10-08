@@ -49,6 +49,14 @@ function vcs_echo {
 PROMPT='%F{green}%n%f %F{yellow}[%~]%f `vcs_echo`
 %(?.$.%F{red}$%f) '
 
+# cdr の設定
+autoload -Uz chpwd_recent_dirs cdr add-zsh-hook
+add-zsh-hook chpwd chpwd_recent_dirs
+zstyle ':completion:*' recent-dirs-insert both
+zstyle ':chpwd:*' recent-dirs-max 50
+zstyle ':chpwd:*' recent-dirs-default true
+zstyle ':chpwd:*' recent-dirs-pushd true
+
 # brew setting
 export PATH=$(brew --prefix)/bin:$PATH
 
