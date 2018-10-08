@@ -16,6 +16,20 @@
     showInvisibles: true
     softWrap: true
     tabLength: 4
+  "editor-background":
+    box3d:
+      shadowOpacity: 0
+    image:
+      backgroundSize: "100%"
+      customOverlayColor: true
+      opacity: 10
+      overlayColor: "#000000"
+      style: "rgba(0,0,0,0);"
+    other: {}
+    text:
+      blur: 0
+      expand: 0
+      opacity: 0
   "exception-reporting":
     userId: "6714ef13-0885-48ec-dfc0-b88fa50018c6"
   "goto-definition": {}
