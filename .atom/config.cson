@@ -33,6 +33,9 @@
   "exception-reporting":
     userId: "6714ef13-0885-48ec-dfc0-b88fa50018c6"
   "goto-definition": {}
+  swackets:
+    colorParens: true
+    colorSquareBrackets: true
   "tree-view": {}
   welcome:
     showOnStartup: false
